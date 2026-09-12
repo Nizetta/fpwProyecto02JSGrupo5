@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Ejercicio 5</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link href="css/style.css" rel="stylesheet"> -->
+    </head>
+    <body>
+        <h1>Ejercicio 5</h1>
+        <p>Desarrollar un programa que solicite al usuario los siguientes datos de un estudiante: cantidad total de preguntas en un examen y cantidad de respuestas correctas. Utilizando estos datos, el programa debe calcular el porcentaje de rendimiento aplicando la siguiente fórmula:
+        Porcentaje = (Respuestas correctas / Total de preguntas) * 100.
+        Una vez calculado el porcentaje, el programa debe clasificar el rendimiento del estudiante y mostrar en qué categoría se encuentra, según las siguientes pautas:
+        Mayor o igual a 90%: Excelente
+        Entre 70% y 89.99%: Muy Bueno
+        Entre 50% y 69.99%: Aprobado
+        Menor a 50%: Desaprobado</p>
+        
+        <form id="formulario">
+            <label for="cantPreguntas">cantidad de preguntas en un examen</label> 
+            <input id="cantPreguntas" type="number"/> 
+            <label for="cantRespuestas">cantidad de respuestas correctas</label>
+            <input id="cantRespuestas" type="number"/>
+            <button type="submit">Calcular</button>
+        </form>
+        <ol id="resultados"></ol>
+
+        <script type="module" src="/src/js/ejer5.js"></script>
+    </body>
+</html>
