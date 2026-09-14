@@ -4,5 +4,5 @@ let cadena = prompt("Ingrese una cadena de N caracteres impares (dígitos entre 
 
 let nuevaCadena = reemplazarSigno(cadena);
 
-console.log("Cadena original: " + cadena);
-console.log("Cadena modificada: " + nuevaCadena);
+alert("Cadena original: " + cadena);
+alert("Cadena modificada: " + nuevaCadena);
