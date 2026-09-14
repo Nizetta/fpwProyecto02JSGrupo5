@@ -1,4 +1,4 @@
-    import {cantidadDeCaracteres} from "../servicios/serviciosPunto3.js";
+    import {cantidadDeCaracteres} from "../servicios/servicioseEjer3.js";
 
  let ciudad = prompt("Ingresa el nombre de una ciudad:");
     let pais = prompt("Ingresa el nombre de un país:");
