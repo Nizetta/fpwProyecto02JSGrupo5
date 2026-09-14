@@ -1,11 +1,3 @@
-// export const mostrarLista=(listaDeTareas)=>{
-//     for(const i of listaDeTareas){
-//         const li =document.createElement("li");
-//         li.textContent=i;
-//         lista.append(li);
-//     }
-// };
-
 export const calcularPorcentaje=(v1,v2)=>{
     const porcentaje=(v2/v1)*100;
     rendimientoEstudiante(porcentaje);
