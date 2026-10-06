@@ -12,10 +12,14 @@ let cadena = prompt(
 if (cadena === null) {
 
     console.log("Operación cancelada por el usuario.");
+    alert("Operación cancelada por el usuario.");
 
 } else if (!validarCadena(cadena)) {
 
     console.log(
+        "Error: ingrese una cadena impar que comience con un dígito del 0 al 5 y alterne números y signos ?."
+    );
+    alert(
         "Error: ingrese una cadena impar que comience con un dígito del 0 al 5 y alterne números y signos ?."
     );
 
