@@ -26,4 +26,9 @@ if (cadena === null) {
     console.log("Cadena original:", cadena);
     console.log("Cadena resultante:", resultado);
 
+    alert(
+        "Cadena original: " + cadena + "\n" +
+        "Cadena resultante: " + resultado
+    );
+
 }
